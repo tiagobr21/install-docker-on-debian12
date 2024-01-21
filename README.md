@@ -2,7 +2,7 @@
 
 
 * sudo apt remove docker docker-engine docker.io containerd runc
-$ sudo apt install apt-transport-https  ca-certificates  curl gnupg-agent software-properties-common iptables
+* sudo apt install apt-transport-https  ca-certificates  curl gnupg-agent software-properties-common iptables
 $ sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 $ /sbin/iptables --version
 $ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
