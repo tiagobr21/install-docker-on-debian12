@@ -1,6 +1,6 @@
 # how to install docker on debian 12
 
-
+* sudo apt-get update && upgrade
 * sudo apt remove docker docker-engine docker.io containerd runc
 * sudo apt install apt-transport-https  ca-certificates  curl gnupg-agent software-properties-common iptables
 * sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
