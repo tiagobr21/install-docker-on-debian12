@@ -1,3 +1,8 @@
+# WslRegisterDistribution failed with error: 0x800701bc
+Error: 0x800701bc WSL 2 requer uma atualizaþÒo para seu componente kernel. Para obter mais informaþ§es, visite https://aka.ms/wsl2kernel
+
+resolve: install this https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+
 # how to install docker on debian 12
 
 * sudo apt-get update && upgrade
