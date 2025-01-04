@@ -28,6 +28,10 @@ resolve: install this https://wslstorestorage.blob.core.windows.net/wslblob/wsl_
 * docker ps -a
 * docker run --rm hello-world
 
-# how to install composer without errors
+# how to install docker on debian 12
+* sudo curl -L https://github.com/docker/compose/releases/download/1.25.3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+* sudo chmod +x /usr/local/bin/docker-compose
+* docker-compose --version
 
+# how to install composer without errors
 * composer install --ignore-platform-reqs
