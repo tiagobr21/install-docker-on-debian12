@@ -22,8 +22,9 @@ resolve: install this https://wslstorestorage.blob.core.windows.net/wslblob/wsl_
 * sudo apt update
 * sudo apt install docker-ce docker-ce-cli containerd.io
 * sudo service docker start
-* sudo docker ps -a
-* sudo docker run --rm hello-world
+* sudo usermod -aG docker $USER
+* docker ps -a
+* docker run --rm hello-world
 
 # how to install composer without errors
 
